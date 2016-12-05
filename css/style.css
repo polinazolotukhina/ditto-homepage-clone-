@@ -1,0 +1,133 @@
+
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+img{
+	max-width: 100%;
+}
+.mynav{
+	 padding-top: 44px;
+	 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:0;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    font-weight: 300;
+	color: #9a9a9a;
+	text-transform: uppercase;
+	margin-top: 13px;
+}
+p{
+	font-weight: 300;
+	color: #9a9a9a;
+    
+}
+h4{
+	font-weight: 300;
+	color: #9a9a9a;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 35px;
+}
+h1{
+	line-height: 25px;
+	font-size: 39px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#play{
+	margin-top: 150px;
+
+}
+.btn-default{
+	color: #50aa1c;
+	margin-right: 10px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #50aa1c;
+    font-size: 18px;
+    font-weight: 500;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+
+}
+
+.btn-default:hover {
+    background-color: #50aa1c;
+    color: #fff;
+    border-color: #50aa1c;
+}
+.bx-wrapper .bx-viewport {
+    -webkit-box-shadow: none!important;
+ }
+.linked {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(../img/link.png) center center no-repeat;
+}
+.in:hover { 
+    color: yellow;
+}
+.tw {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(../img/tweeter.png) center center no-repeat;
+    background-size: cover;
+   
+}
+
+#social{
+	float:right;
+}
+footer{
+	margin-top:140px;
+}
+
+
+
+
+/*========== Non-Mobile First Method ==========*/
+
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 768px) {
+
+	}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ .btn-default{
+ 	padding: 17px 50px;
+ }  
+ h1{
+	line-height: 60px;
+	font-size: 75px;
+	line-height: 60px;
+}
+
+	
+
+.navbar-default .navbar-nav>li>a {
+
+	margin-left: 45px;
+}
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {}
+
+	
